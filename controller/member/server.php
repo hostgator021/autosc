@@ -31,7 +31,7 @@ class Server extends \Home {
 		$server = $this->loadServer();
 		$account = new \Webmin($server);
 		if (($saldo = $this->me->saldo)<$server->price) {
-			$this->flash('Saldo Anda Kurang, Hub Admin utk Deposit');
+			$this->flash('Saldo Anda Kurang, Hub Admin utk Deposit http://www.facebook.com/SubReseller.AlwaysCheat');
 			$f3->reroute($f3->get('URI'));
 		}
 		if ( ! $account->check($f3->get('POST.user'))) {
