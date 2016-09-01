@@ -25,7 +25,7 @@
                         </div>
                         <table class="table">
                             <tr>
-                                <td>Lokasi</td><td>{{ @server->country }}</td>
+                                <td>IP Host</td><td>{{ @server->host }}</td>
                             </tr>
                             <tr>
                                 <td>Host</td><td>{{ @server->host }}</td>
@@ -46,11 +46,15 @@
                 <div class="panel-body">
                     <form role="form" action="{{ @URI }}" method="POST">
                         <div class="form-group">
+                          <br> Jika Ingin MenTopUp Saldo Bisa Hub Admin http://www.facebook.com/SubReseller.AlwaysCheat</br>
                             <label>Username</label>
+                            <br>*Mohon gunakan user yang tidak mudah ditebak dan gunakan huruf dan angka</br>
                             <input class="form-control" placeholder="Sudirman" name="user" type="text" required>
                         </div>
                         <div class="form-group">
                             <label>Password</label>
+                            <br>*Mohon gunakan password yang tidak mudah ditebak dan gunakan huruf dan angka
+*Passwd tidak boleh sama dengan user </br>
                             <input class="form-control" placeholder="New Password" name="pass" type="password" required>
                         </div>
                         <div class="form-group">
